@@ -11,6 +11,9 @@
 		C052D97D2B2075A300795AFC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C052D97C2B2075A300795AFC /* ContentView.swift */; };
 		C052D97F2B2075A400795AFC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C052D97E2B2075A400795AFC /* Assets.xcassets */; };
 		C052D9822B2075A400795AFC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C052D9812B2075A400795AFC /* Preview Assets.xcassets */; };
+		C052D98D2B20762100795AFC /* CryptoCurrency.swift in Sources */ = {isa = PBXBuildFile; fileRef = C052D98C2B20762100795AFC /* CryptoCurrency.swift */; };
+		C052D98F2B207B5A00795AFC /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C052D98E2B207B5A00795AFC /* WebService.swift */; };
+		C052D9912B20961600795AFC /* CryptoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C052D9902B20961600795AFC /* CryptoViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +22,9 @@
 		C052D97C2B2075A300795AFC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C052D97E2B2075A400795AFC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C052D9812B2075A400795AFC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C052D98C2B20762100795AFC /* CryptoCurrency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoCurrency.swift; sourceTree = "<group>"; };
+		C052D98E2B207B5A00795AFC /* WebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
+		C052D9902B20961600795AFC /* CryptoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +57,11 @@
 		C052D9792B2075A300795AFC /* CryptoSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				C052D98B2B2075F000795AFC /* Service */,
+				C052D98A2B2075D900795AFC /* ViewModel */,
+				C052D9892B2075D100795AFC /* Vİew */,
+				C052D9882B2075AF00795AFC /* Model */,
 				C052D97A2B2075A300795AFC /* CryptoSwiftUIApp.swift */,
-				C052D97C2B2075A300795AFC /* ContentView.swift */,
 				C052D97E2B2075A400795AFC /* Assets.xcassets */,
 				C052D9802B2075A400795AFC /* Preview Content */,
 			);
@@ -65,6 +74,39 @@
 				C052D9812B2075A400795AFC /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C052D9882B2075AF00795AFC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C052D98C2B20762100795AFC /* CryptoCurrency.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C052D9892B2075D100795AFC /* Vİew */ = {
+			isa = PBXGroup;
+			children = (
+				C052D97C2B2075A300795AFC /* ContentView.swift */,
+			);
+			name = "Vİew";
+			path = "Vİew";
+			sourceTree = "<group>";
+		};
+		C052D98A2B2075D900795AFC /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				C052D9902B20961600795AFC /* CryptoViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		C052D98B2B2075F000795AFC /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				C052D98E2B207B5A00795AFC /* WebService.swift */,
+			);
+			path = Service;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +180,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				C052D97D2B2075A300795AFC /* ContentView.swift in Sources */,
+				C052D98D2B20762100795AFC /* CryptoCurrency.swift in Sources */,
+				C052D98F2B207B5A00795AFC /* WebService.swift in Sources */,
 				C052D97B2B2075A300795AFC /* CryptoSwiftUIApp.swift in Sources */,
+				C052D9912B20961600795AFC /* CryptoViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
